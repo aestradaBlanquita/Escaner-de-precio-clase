@@ -1,0 +1,72 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientimage">
+
+    <ImageView
+        android:id="@+id/pic_id"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_blanquita3"
+        android:layout_marginTop="13.5dp" />
+
+    <TextView
+        android:text="INGRESA TU NUMERO RECOMPENSA BLANQUITA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="100dp"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp" />
+
+   <LinearLayout
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+   android:paddingTop="150dp"
+    android:minWidth="25px"  
+    android:minHeight="25px">
+
+        <EditText
+            android:id="@+id/loyalInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="false"
+            android:singleLine="true"
+            android:inputType="number"
+            android:backgroundTint="#F37020"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginLeft="0.0dp"
+            android:layout_marginTop="0.0dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/consultar"
+            android:text="Consultar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#F37020"
+            android:background="@drawable/gradientimage"
+            android:layout_marginLeft="200.0dp"
+            android:layout_marginTop="20.0dp" />
+
+    </LinearLayout>
+
+  
+
+</RelativeLayout>

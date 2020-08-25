@@ -1,0 +1,64 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/gradientimage"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/pic_id"
+        android:layout_width="550dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_blanquita3" />
+
+    <TextView
+        android:text="ESCANER DE PRECIOS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="200dp"
+        android:id="@+id/textView1" />
+
+        <TextView  
+        android:layout_width="wrap_content"  
+        android:layout_height="0dp"        
+        android:layout_weight="1"        
+        android:visibility="invisible"/>    
+        
+        <LinearLayout        
+        android:layout_width="match_parent"        
+        android:layout_height="50dp"        
+        android:orientation="horizontal">        
+            
+        <Button            
+           android:id="@+id/daily_delete_btn"            
+           android:layout_width="0dp"            
+           android:layout_height="50dp"           
+           android:layout_weight="1"            
+           android:text="DELETE"
+           android:visibility="invisible"
+           android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/recompensa_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="RECOMPENSA BLANQUITA"
+            android:textColor="#000000"
+            android:background="@drawable/orangeforbutton"
+            android:layout_gravity="center"/>    
+    
+        </LinearLayout>
+
+</RelativeLayout>
